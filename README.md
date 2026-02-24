@@ -70,19 +70,18 @@
             <li>🌐 why am i focused on my spatial awareness?</li>
         </ul>
 
-        <audio id="Askfirmations101">
-            <source src="Askfirmations101.mp3" type="audio/mpeg">
+        <audio id="Askfirmations101.m4a">
+            <source src="Askfirmations101.m4a" type="audio/mp4">
         </audio>
 
         <button class="play-btn" onclick="playAudio()">
-            🔊 activate Askfirmations101
+            🔊 activate Askfirmations101.m4a
         </button>
     </div>
 
     <script>
         function playAudio() {
-            // Script now looks for the specific Capital-A ID
-            var audio = document.getElementById("Askfirmations101");
+            var audio = document.getElementById("Askfirmations101.m4a");
             audio.currentTime = 0;
             audio.play().catch((error) => {
                 alert("The Den is silent: " + error.message);
