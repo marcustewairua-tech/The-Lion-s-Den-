@@ -35,7 +35,7 @@
             border: none;
             font-weight: bold;
             border-radius: 50px;
-            width: 100%;
+            width: 100%;v
             font-size: 1.2rem;
             cursor: pointer;
             margin-top: 30px;
@@ -70,18 +70,18 @@
             <li>🌐 why am i focused on my spatial awareness?</li>
         </ul>
 
-        <audio id="askfirmationAudio">
+        <audio id="askfirmation101.mp3Audio">
             <source src="askfirmations101.mp3" type="audio/mpeg">
         </audio>
 
         <button class="play-btn" onclick="playAudio()">
-            🔊 activate askfirmations 101
+            🔊 activate askfirmations101.mp3Audio
         </button>
     </div>
 
     <script>
         function playAudio() {
-            var audio = document.getElementById("askfirmationAudio");
+            var audio = document.getElementById("askfirmation101.mp3Audio");
             audio.play().catch((error) => {
                 alert("diagnostic: " + error.name + "\ncheck file name or silent switch.");
             });
